@@ -1,0 +1,130 @@
+.h1 {
+  align-self: flex-end;
+}
+
+
+.bordered {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.hero-stats {
+  background-image: url(https://images.unsplash.com/photo-1573115846435-f287289feb2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 70%;
+
+
+
+}
+
+.text1 {
+  border-width: 0;
+  border-style: solid;
+  font-size: 2rem;
+
+
+}
+
+.card-spill {
+  position: relative;
+  overflow: hidden;
+  max-height: 200px;
+  transition: max-height 0.3s ease;
+}
+
+.middle-card {
+  position: relative;
+  width: 78%;
+  height: 100%;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.icon-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.img2 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon1 {
+  font-size: 2rem;
+}
+
+
+.icon2 {
+  font-size: 3rem;
+}
+
+.footer-center {
+  padding: 86px;
+
+}
+
+.myfont {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .card-spil {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .cardamazing {
+    position: absolute;
+    top: 421px;
+    left: 433px;
+    width: 37%;
+    height: auto;
+  }
+}
+
+.card-margin {
+  margin-bottom: 20px
+}
+
+@media (min-width:768px) {
+
+  .card-spill9 {
+    max-height: none;
+  }
+}
